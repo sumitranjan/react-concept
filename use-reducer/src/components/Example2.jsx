@@ -17,12 +17,6 @@ function Example2() {
 
   const [state, dispatch] = useReducer(reducer, initialState);
 
-  function increment() {
-    dispatch({ type: "increment" });
-  }
-  function decrement() {
-    dispatch({ type: "decrement" });
-  }
   return (
     <div>
       <h4>Counter</h4>
